@@ -1,0 +1,31 @@
+Admin Panel Features:
+*Basic Settings:*
+(All Editable, iskay document ki creation tum hath se karogay aur phr uss particular document ko pakar kay edit karogay jesay pehlay kartay thay)
+Home Page Meta Title
+Home Page Meta Description
+About Us Description (It will be rendered in footer and about us page)
+Home Page Carousal Images (Array which should consist of objects having a key value pair of "url" string)
+Email
+Phone Number
+Address
+*View Categories*
+Card View of all categories showing all categories with respect to their cover Image, Title, and description (make the description short for limited characters and place "..." at the end)
+It should be editable in the form of modal and deletable
+*Create Category*
+Category Meta Title
+Category Meta Description
+Category Title
+Category Description
+Cover Images (Array which should consist of objects having a key value pair of "url" string)
+*Create Product*
+Product Meta Title
+Product Meta Description
+Product Title
+Product Category (It should be the object ID of the category to which the product belongs)
+Product Images (Array which should consist of objects having a key value pair of "url" string)
+Product Description
+Date of Creation
+*View Products*
+Make a dropdown where there are options in which All Products is selected by default and it fetches all Products, and the other dropdown options represent the categories, so if user select any cateogory then the Products below should be filtered as per the category.
+Fetch All Products and render them in the form of cards, Cover Image, Title, and description with small length ending with "...". 
+All Products should be editable in the form of modal and deletable.

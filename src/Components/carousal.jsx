@@ -140,12 +140,12 @@ export default function Carousal() {
                   <div className="d-flex align-items-center px-2">
                     <i
                       style={{ fontSize: '30px', color: '#c301ff' }}
-                      className="fa fa-phone-square px-2"
+                      className="fa fa-phone-square px-3"
                       aria-hidden="true"
                     ></i>
                     <span style={{ color: 'black' }}>Contact Us</span>
                   </div>
-                  <div>
+                  <div className='px-3'>
                     <span>
                       <b>
                         <a
