@@ -36,6 +36,8 @@ const color = "#c301ff"
     whatsappRef.current?.click();
   };
 
+  console.clear()
+
   return (
 
     <>
