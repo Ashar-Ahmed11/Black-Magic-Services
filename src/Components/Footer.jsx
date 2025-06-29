@@ -1,89 +1,61 @@
-import React from 'react';
-import { Link } from 'react-router-dom'
-const Footer = () => {
-  return (
-    <footer className=" text-white" style={{backgroundColor:'#4e4e4f'}}>
-      <div className="container py-5">
-        <div className="row">
-          {/* Black Magic Services Column */}
-          <div className="col-md-4 mb-4 mb-md-0">
-            <h3 className="mb-4 text-white fw-bold">
-              <u>Black Magic Services</u>
-            </h3>
-            <p>
-             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium dolorem in quos dolores, cumque iusto beatae officia accusamus nostrum expedita eligendi quo. Iure fuga excepturi inventore qui assumenda distinctio in reiciendis perferendis, et ab dignissimos nostrum explicabo sint est laborum?
-            </p>
-          </div>
+import React from 'react'
+import { Link } from 'react-router-dom/cjs/react-router-dom.min'
+export default function Footer({data}) {
+    return (
+        <div>
+            <footer class="site-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                            <h6>About</h6>
+                            <p class="text-justify">Professor Amil Jalal Masih has been a spiritual healer for more than 30 years and is well-known for his work. specializing in issues with love</p>
+                        </div>
 
-          {/* Quick Links Column */}
-          <div className="col-md-4 mb-4 mb-md-0">
-            <h3 className="mb-4 text-white fw-bold">
-              <u>Quick Links</u>
-            </h3>
-            <ul className="list-unstyled">
-              <li className="mb-2">
-                <Link to="/" className="text-white text-decoration-none">Privacy Policy</Link>
-              </li>
-              <li className="mb-2">
-                <Link to="/" className="text-white text-decoration-none">Contact Us – Black Magic Services</Link>
-              </li>
-              <li className="mb-2">
-                <Link to="/" className="text-white text-decoration-none">About Us</Link>
-              </li>
-              <li className="mb-2">
-                <Link to="/" className="text-white text-decoration-none">Success Story: Empowering Lives through Black Magic Services</Link>
-              </li>
-              <li className="mb-2">
-                <Link to="/" className="text-white text-decoration-none">Welcome to Black Magic Services – Pakistan's Black Magic</Link>
-              </li>
-            </ul>
-          </div>
+                        <div class="col-xs-6 col-md-3">
+                            <h6>Quick Links</h6>
+                            <ul class="footer-links">
+                                <li><Link onClick={()=>{window.scrollTo({ behavior: 'smooth', top: 0, left: 0,behavior:"instant" })}}  to="/">Home</Link></li>
+                                <li><Link onClick={()=>{window.scrollTo({ behavior: 'smooth', top: 0, left: 0,behavior:"instant" })}} to="/">Services</Link></li>
+                                <li><Link onClick={()=>{window.scrollTo({ behavior: 'smooth', top: 0, left: 0,behavior:"instant" })}} to="/contact-us">Contact Us</Link></li>
+                                <li><Link onClick={()=>{window.scrollTo({ behavior: 'smooth', top: 0, left: 0,behavior:"instant" })}} to="/about-us">About Us</Link></li>
+                            </ul>
+                        </div>
 
-          {/* Newsletter Column */}
-          <div className="col-md-4 ">
-            <h3 className="mb-4 text-white fw-bold">
-              <u>Newsletter</u>
-            </h3>
-            <p>
-              Join us this month as we explore the latest 
-              trends in health, technology, and lifestyle. 
-              Discover valuable tips to enhance your well-
-              being and make informed choices for a 
-              smarter, more fulfilling life!
-            </p>
-            <div className="input-group mt-3">
-              <input 
-                type="email" 
-                className="form-control" 
-                placeholder="Email" 
-                aria-label="Email"
-              />
-              <button 
-                className="btn btn-success" 
-                type="button"
-              >
-                Go
-              </button>
-            </div>
-          </div>
+                        <div class="col-xs-6 col-md-3">
+                            <h6>Get In Touch</h6>
+                            <ul class="footer-links">
+                                {/* <li onClick={()=>{window.scrollTo({ behavior: 'smooth', top: 0, left: 0,behavior:"instant" })}}  >Home</li> */}
+                                <li>Phone: <a  href={`tel:+92-314-5167255`}>+92-314-5167255</a></li>
+                                <li>Phone: <a  href={`tel:+92-332-9386158`}>+92-332-9386158</a></li>
+                                <li>Landline: <a  href={`tel:+92-51-8736204`}>+92-51-8736204</a></li>
+                                
+                            </ul>
+                        </div>
+                        
+                    </div>
+                    <hr/>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-sm-6 col-xs-12">
+                            <p class="copyright-text">Copyright &copy; 2025 All Rights Reserved by
+                            </p>
+                            <p class="copyright-text">Site developed by: <a target='_blank' href="https://metatech-official.co/">Metatech Official</a>
+                                
+                            </p>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <ul class="social-icons">
+                                <li><Link onClick={()=>{window.scrollTo({ behavior: 'smooth', top: 0, left: 0,behavior:"instant" })}} class="facebook" to="/" target="blank"><i class="fa fa-facebook"></i></Link></li>
+                                <li><Link onClick={()=>{window.scrollTo({ behavior: 'smooth', top: 0, left: 0,behavior:"instant" })}} class="twitter" to="/"><i class="fa fa-twitter"></i></Link></li>
+                                <li><Link onClick={()=>{window.scrollTo({ behavior: 'smooth', top: 0, left: 0,behavior:"instant" })}} class="dribbble" to="/"><i class="fa fa-dribbble"></i></Link></li>
+                                <li><Link onClick={()=>{window.scrollTo({ behavior: 'smooth', top: 0, left: 0,behavior:"instant" })}} class="linkedin" to="/"><i class="fa fa-linkedin"></i></Link></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
         </div>
-      </div>
-
-      {/* Bottom Footer Bar */}
-      <div className="bg-dark py-3 text-white">
-  <div className="container d-flex justify-content-between align-items-center flex-wrap">
-    <div className="small">
-      © Copyright Black Magic Services. All rights reserved.
-    </div>
-    <div>
-      <Link to="/" className="me-3 small text-white text-decoration-none">Disclaimer</Link>
-      <Link to="/" className="me-3 small text-white text-decoration-none">Privacy Policy</Link>
-      <Link to="/" className="small text-white text-decoration-none">Terms and Conditions</Link>
-    </div>
-  </div>
-</div>
-    </footer>
-  );
-};
-
-export default Footer;
+    )
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import asaanQarz3 from '../../Images/imageEight.jpg'
+import asaanQarz3 from '../../Images/img10.jpg'
 
 const AkhuwatLoanScheme = ()=>{
   return (
@@ -7,15 +7,15 @@ const AkhuwatLoanScheme = ()=>{
       <div className="container ">
         <div className="row align-items-center">
           <div className="col-lg-5 " >
-            <h1 className="fw-bold mb-4">Plan for Giving Credit to Black Magic Services</h1>
+            <h1 className="fw-bold mb-4">How to Handle Divorce with the Help of God</h1>
             
             <p className="mb-4 fw-bold mt-1">
-            Black Magic Services has a credit system that is easy to understand, open to everyone, and made to work for everyone. It makes it easy for people to get money because the payment system is simple and the application process is quick and doesn't require much papers. It is a popular choice in Pakistan because the interest rates are so low.
+            There is a support system at Divorce Solution that is easy to use and made for anyone going through a hard split. It helps people find peace of mind by giving them clear, caring steps based on spiritual understanding. The process is easy, doesn't take much work, and is meant to ease mental pain. People all over Pakistan trust this service to help them rebuild their lives with mental and emotional power.
             </p>
             
             <div className="border-start border-primary border-4 ps-3 mb-4 mt-1">
               <p className="mb-0">
-              Anyone from the Black Magic Services head office can help you if you ever need it or aren't sure what to do. Their helpful and friendly staff is always ready to help you and make sure your experience goes smoothly and without any stress.
+              If you ever feel lost or stressed, anyone on the Divorce Solution team is ready to help. Their loving and helpful staff is always there to help you through every step of the way, making sure your journey is stress-free and full of hope.
               </p>
             </div>
           </div>

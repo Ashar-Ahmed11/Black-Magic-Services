@@ -1,4 +1,5 @@
 import React from 'react'
+import { Element } from 'react-scroll';
 import Crousal from './homeComponents/Crousal'
 import Cards from './homeComponents/Cards'
 import AkhuwatLoanBanner from './homeComponents/AkhuwatLoanBanner'
@@ -15,17 +16,19 @@ import StatsCards from './homeComponents/StatsCard'
 import AkhuwatPlans from './akhuwatplans'
 import Carousal from './carousal'
 
-const Home = () => {
+const Home = ({ triggerWhatsApp }) => {
   return (
     <div>
       <Carousal />
       <StatsCards />
       <AkhuwatImages2 />
+       <Element name="servicescards">
       <Cards />
+      </Element>
       <AkhuwatImages3 />
       <AkhuwatPlans/>
    <WhyChooseAkhuwat />
-   <AkhuwatLoanStatus/>
+   <AkhuwatLoanStatus triggerWhatsApp={triggerWhatsApp}/>
       <AkhuwatLoanInstruction />
       <AkhuwatLoanScheme />
       <AkhuwatAdvantage />

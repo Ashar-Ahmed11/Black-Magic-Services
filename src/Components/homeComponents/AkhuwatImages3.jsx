@@ -1,6 +1,6 @@
 import React from 'react';
-import imageOne from '../../Images/imageOne.jpg'
-import imageTwo from '../../Images/imageTwo.jpg'
+import imageOne from '../../Images/img5.jpg'
+import imageTwo from '../../Images/img6.jpg'
 
 const AkhuwatImages3 = () => {
   return (

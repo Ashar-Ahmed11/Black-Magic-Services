@@ -7,17 +7,17 @@ const Cards = () => {
     <div className='' style={{ backgroundColor: '#f7f8f9' }}>
       <div className='container text-center' >
       {/* <p className='w-70% text-center'>Black Magic Services LOAN</p> */}
-      <p className='w-70% text-center' style={{paddingTop:'26px'}}>Black Magic Services LOAN</p>
+      <p className='w-70% text-center' style={{paddingTop:'26px'}}>Professor Amil Jalal Masih Is Providing Services</p>
       
       <h1 ><b>Our Services</b></h1>
-        <h1><b>If you want a better future, apply today.</b></h1>
+        <h1><b>These services are given by a professional and experienced priest. </b></h1>
         <div className="row mt-5 d-flex justify-content-center flex-wrap">
           <div className="col-md-4 col-12 mt-4">
             <div data-aos="zoom-in" data-aos-duration="1000" className="h-100 card border-0 rounded-0">
               <div className="card-body text-start m-4">
                 <i class="fa pb-3 fa-heart" aria-hidden="true" style={{ fontSize: "40px", color: color }}></i>
-                <h5 className="card-title">Love Marriage</h5>
-                <p className="card-text">You can get a personal loan from the Black Magic Services for up to Rs. 2.5 million. The amount of loan you can get depends on your income, credit history, debt-to-income ratio, and job status, among other things. These people must be between the ages of 24 and 60. The Black Magic Services's website lets you keep track of the progress of your loan application, giving you real-time information and keeping you in the loop at all times.</p>
+                <h5 className="card-title">Help with Love and Marriage</h5>
+                <p className="card-text">Do you want to marry the person you love? Keep going even if things get hard or you have questions. Professionals who know a lot about astrology can help you find strong and unique ways to deal with problems in your love life. The best way to have a happy and long-lasting love marriage is to listen to what experts have to say. </p>
                 <a href="/" className="btn btn-primary border-0 rounded-0" style={{ backgroundColor: color }}>Contact US</a>
               </div>
             </div>
@@ -26,8 +26,8 @@ const Cards = () => {
             <div data-aos="zoom-in" data-aos-duration="1000" className="h-100 card border-0 rounded-0">
               <div className="card-body text-start m-4">
                 <i class="fa pb-3 fa-exclamation" aria-hidden="true" style={{ fontSize: "40px", color: color }}></i>
-                <h5 className="card-title">Get Ex Love Back</h5>
-                <p className="card-text">Black Magic Services makes it easier to get a business loan by letting you apply online from your office. These loans are meant to help with short-term cash flow problems, and choices on approval are usually made within a few hours. The application process is quick and doesn't require much paperwork, so you can focus on building your business without having to wait around.</p>
+                <h5 className="card-title">Get your ex-lover back</h5>
+                <p className="card-text">Reconnect with your lost love with the help of spiritual advice you can trust. If you want to get back together with your ex, professional spiritual answers can help heal the emotional distance, clear up any misunderstandings, and start loving them again. You can start over, rebuild trust, and get back together with someone you used to love with personalized help. Don't give up; find love again. </p>
                 <a href="/" className="btn btn-primary border-0 rounded-0" style={{ backgroundColor: color }}>Contact US</a>
               </div>
             </div>
@@ -36,8 +36,8 @@ const Cards = () => {
             <div data-aos="zoom-in" data-aos-duration="1000" className="h-100 card border-0 rounded-0">
               <div className="card-body text-start m-4">
                 <i class="fa pb-3 fa-eye" aria-hidden="true" style={{ fontSize: "40px", color: color }}></i>
-                <h5 className="card-title">Divorce Solution</h5>
-                <p className="card-text">In Pakistan, the Black Magic Services helps people buy, build, or fix up their homes by giving them housing loans. With an easy application process and quick access to funds, the Black Magic Services Home Loan is a great choice for people who need money for housing quickly and without a lot of trouble.</p>
+                <h5 className="card-title">How to Get a Divorce</h5>
+                <p className="card-text">Having a hard time with the stress and problems that come with divorce? Get peace of mind and clarity by getting spiritual and mental help that is right for you. Getting help from a professional can make things easier and help you get things resolved, whether you're having trouble with the law, emotional pain, or family problems. Get your stability back, make smart choices, and move forward with power and confidence. </p>
                 <a href="/" className="btn btn-primary border-0 rounded-0" style={{ backgroundColor: color }}>Contact US</a>
               </div>
             </div>
@@ -46,8 +46,8 @@ const Cards = () => {
             <div data-aos="zoom-in" data-aos-duration="1000" className="h-100 card border-0 rounded-0">
               <div className="card-body text-start m-4">
                 <i class="fa pb-3 fa-suitcase" aria-hidden="true" style={{ fontSize: "40px", color: color }}></i>
-                <h5 className="card-title">Husband Back</h5>
-                <p className="card-text">To make sure your big day goes exactly as planned, Black Magic Services offers wedding loans to cover all of your wedding costs. You can take anywhere from PKR 500,000 to PKR 6,000,000, and you have 10 to 36 months to pay it back. There is no need to put up security for these loans, and funds are usually sent out within 24 hours for returning customers. This makes managing your wedding finances simple and stress-free.</p>
+                <h5 className="card-title">Getting together</h5>
+                <p className="card-text">Having trouble with your relationship? Don't let mistakes or being emotionally far apart cause you to lose touch. You can solve problems, talk to each other better, and trust each other again if you get help from a professional. Whether it's a romantic, marital, or personal relationship, get the help you need to make things right, improve your love, and make your relationship last.</p>
                 <a href="/" className="btn btn-primary border-0 rounded-0" style={{ backgroundColor: color }}>Contact US</a>
               </div>
             </div>
@@ -58,7 +58,7 @@ const Cards = () => {
                 <i class="fa pb-3 fa-refresh" aria-hidden="true" style={{ fontSize: "40px", color: color }}></i>
                 <h5 className="card-title">Black Magic
                 </h5>
-                <p className="card-text">Black Magic Services offers car loans with interest rates as low as 1% per year, which can cover the full on-road cost of your car. You can choose a loan term that works for your budget if the repayment choices are flexible. The easy application process means that loans are approved quickly, and current customers usually get their money within 48 hours. With Black Magic Services, it's easy and stress-free to get the car of your dreams.</p>
+                <p className="card-text">Are you or someone you care about being affected by black magic or bad energies? Do not let these unseen forces get in the way of your happiness and peace. Spiritual healing from a professional can help you get rid of negative effects, protect your mind, body, and soul, and bring balance back to your life. Protect yourself and your family from dangers you can't see, and bring back positivity, safety, and inner power. </p>
                 <a href="/" className="btn btn-primary border-0 rounded-0" style={{ backgroundColor: color }}>Contact US</a>
               </div>
             </div>

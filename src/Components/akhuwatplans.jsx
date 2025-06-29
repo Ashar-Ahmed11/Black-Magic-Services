@@ -43,22 +43,22 @@ const AkhuwatPlans = () => {
             <ul className="list-group pb-4">
                 <li className="py-3 list-group-item">
                     <p className="h4 fw-normal">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis quisquam molestiae maiores eaque sequi nostrum molestias ipsum quibusdam iste porro!
+                        If you're going through a breakup, a misunderstanding, or love that hasn't been returned, get spiritual help to heal, bring peace back into your life, and find true happiness.
                     </p>
                 </li>
                 <li className="py-3 list-group-item">
                     <p className="h4 fw-normal">
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni quos ipsam excepturi provident dolor voluptas vero soluta, ab repellat ipsum!
+                      We use powerful spiritual methods to help you get back in touch with a lost love and bring that person back into your life in a way that is harmonious.
                     </p>
                 </li>
                 <li className="py-3 list-group-item">
                     <p className="h4 fw-normal">
-                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt sed placeat quia, qui corporis soluta rerum atque asperiores voluptate veritatis.
+                       Get strong spiritual advice to make your dream of marrying your true love come true, with blessings, support, and lasting peace.
                     </p>
                 </li>
                 <li className="py-3 list-group-item">
                     <p className="h4 fw-normal">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, obcaecati! Debitis aliquid praesentium sint et officia. Ipsum quis laudantium ex.
+                        No matter if you're having problems with trust, relationships, or the thought of getting a divorce, our spiritual remedies can help fix them and bring peace, love, and balance back into your life.
                     </p>
                 </li>
             </ul>

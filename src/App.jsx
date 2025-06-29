@@ -7,11 +7,11 @@ import SuccessStory from './Components/successStory';
 import AkhuwatLoanService from './Components/akhuwatLoanService';
 import AkhuwatBussinessLoan from './Components/akhuwatBussinessLoan';
 import AkhuwatHouseLoan from './Components/akhuwatHouseLoan';
-import AboutUs from './Components/aboutUs';
+import AboutUs from './Components/newaboutus';
 import PrivacyPolicy from './Components/PrivacyPolicy';
 import TermsAndCondition from './Components/TermsAndCondition';
 import Disclaimer from './Components/Disclaimer';
-import ContactUS from './Components/contactUs';
+import ContactUS from './Components/newcontactus';
 import {
 
   Switch,
@@ -20,7 +20,7 @@ import {
 } from "react-router-dom";
 
 import AppContext from './Components/context/appContext';
-import { useContext } from 'react'
+import { useContext, useRef } from 'react'
 import Admin from './Components/adminPanel/admin';
 import Dashboard from './Components/adminPanel/dashboard';
 import AllUsers from './Components/adminPanel/allUser';
@@ -30,15 +30,29 @@ function App() {
   const context = useContext(AppContext)
   const { siteData } = context
 const color = "#c301ff"
+ const whatsappRef = useRef();
+
+  const handleTriggerWhatsApp = () => {
+    whatsappRef.current?.click();
+  };
 
   return (
 
     <>
-       <div>{<div className='whatsapp brand-image'>
+       <div>      <div className='whatsapp brand-image'>
         <p className='my-0 mx-2 pl-2 fw-bold' style={{ fontSize: "11px", width: '70px', textAlign: 'center', color: color }}>Black Magic Live Support</p>
-        {/* 923428347762 */}
-        <a className='mx-3' target="_blank" aria-label="Chat on WhatsApp" href={`https://wa.me/923472698189`}> <i style={{ color: '#0dc143' }} className="fa fa-whatsapp" aria-hidden="true"></i> </a>
-      </div>}
+        <a
+          ref={whatsappRef}
+          className='mx-3'
+          target="_blank"
+          aria-label="Chat on WhatsApp"
+          href={`https://wa.me/923472698189`}
+          rel="noreferrer"
+        >
+          <i style={{ color: '#0dc143' }} className="fa fa-whatsapp" aria-hidden="true"></i>
+        </a>
+      </div>
+
 
         <div className='phonenum brand-image'>
           <p className='m-0 fw-bold' style={{ fontSize: "11px", width: '55px', textAlign: 'center', color: color }}>Black Magic Office No.</p>
@@ -61,7 +75,7 @@ const color = "#c301ff"
 
       <Switch>
         <Route exact path="/">
-          <Home />
+          <Home triggerWhatsApp={handleTriggerWhatsApp} />
         </Route>
         <Route exact path="/success-story">
           <SuccessStory />

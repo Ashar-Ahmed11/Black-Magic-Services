@@ -1,7 +1,7 @@
 import React from "react";
 import CountUp from 'react-countup';
-import asaanQarz1 from '../../Images/imageThree.jpg'
-import asaanQarz2 from '../../Images/imageFour.jpg'
+import asaanQarz1 from '../../Images/img7.jpg'
+import asaanQarz2 from '../../Images/img8.jpg'
 
 const WhyChooseAkhuwat = () => {
   return (
@@ -19,10 +19,10 @@ const WhyChooseAkhuwat = () => {
         <div className="row align-items-center">
           <div className="col-lg-5">
             <h2 className="fw-bold mb-4 display-5">
-            Why Should You Pick Black Magic Services?
+            Why Would You Want to Use Black Magic?
             </h2>
             <p>
-           Black Magic Services is the only company in Pakistan that gives loans to people in need with no interest (Qarz-e-Hasna). Black Magic Services puts helping people ahead of making money, which is different from most banks. It helps pay for important things like medical bills, starting a business, and going to school. There are no hidden fees or handling charges. People can apply online or at a branch near them because they are open to everyone and care about the neighborhood. Black Magic Services wants to reduce poverty by giving people easy, clear, and caring financial help that gives them the tools they need to make their lives better.
+Professor Amil Jalal Masih has a lot of experience with astrology and spiritual healing, so he can help you with your most difficult mental and spiritual problems. He is an expert on problems that have to do with love, such as Manpasand Shadi (desired marriage), Pasand Ki Shadi (love marriage), Mohabbat Ki Shadi, and Ex Love Back. He can also help with problems related to divorce, love conflicts, and Bandish Ka Tor (removing psychic blocks). He knows a lot about Kala Jadu Ka Tor (removing black magic), which has helped a lot of people keep themselves and their loved ones safe from bad energies. He helps people get peace, harmony, and happiness back in their lives by giving them personalized spiritual advice. 
 
             </p>
           </div>
