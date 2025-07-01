@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Black-Magic-Services/static/css/main.cc5ed676.css",
-    "main.js": "/Black-Magic-Services/static/js/main.5a8115cc.js",
+    "main.js": "/Black-Magic-Services/static/js/main.b4b360ea.js",
     "static/js/453.3c20f72e.chunk.js": "/Black-Magic-Services/static/js/453.3c20f72e.chunk.js",
     "static/media/coverImage.jpg": "/Black-Magic-Services/static/media/coverImage.4cdf269b1d25cba913d8.jpg",
     "static/media/centerImage.png": "/Black-Magic-Services/static/media/centerImage.92f1980c1ac1d2fbab4d.png",
@@ -42,11 +42,11 @@
     "static/media/img8.jpg": "/Black-Magic-Services/static/media/img8.fbf3bf8e20705c3d6d21.jpg",
     "index.html": "/Black-Magic-Services/index.html",
     "main.cc5ed676.css.map": "/Black-Magic-Services/static/css/main.cc5ed676.css.map",
-    "main.5a8115cc.js.map": "/Black-Magic-Services/static/js/main.5a8115cc.js.map",
+    "main.b4b360ea.js.map": "/Black-Magic-Services/static/js/main.b4b360ea.js.map",
     "453.3c20f72e.chunk.js.map": "/Black-Magic-Services/static/js/453.3c20f72e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cc5ed676.css",
-    "static/js/main.5a8115cc.js"
+    "static/js/main.b4b360ea.js"
   ]
 }
