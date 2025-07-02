@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import weddingOne from '../Images/weddingOne.jpg';
 import exLove from '../Images/exLove.jpg';
 import relationship from '../Images/relationship.jpg';
+import mainCarousalImage from '../Images/mainCarousalImage.jpeg'
 import recitation from '../Images/recitation.jpg';
 import { TypeAnimation } from 'react-type-animation';
 
@@ -28,10 +29,11 @@ export default function Carousal() {
   }, []);
 
   const coverImages = [
-    { url: weddingOne },
-    { url: exLove },
-    { url: relationship },
-    { url: recitation },
+
+    { url: weddingOne }
+    // { url: exLove },
+    // { url: relationship },
+    // { url: recitation },
   ];
 
   return (

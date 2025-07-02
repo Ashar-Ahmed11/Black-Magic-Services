@@ -7,10 +7,10 @@ const Cards = () => {
     <div className='' style={{ backgroundColor: '#f7f8f9' }}>
       <div className='container text-center' >
       {/* <p className='w-70% text-center'>Black Magic Services LOAN</p> */}
-      <p className='w-70% text-center' style={{paddingTop:'26px'}}>Professor Amil Jalal Masih Is Providing Services</p>
+      <p className='w-70% text-center fw-bold' style={{paddingTop:'26px',fontSize:'30px'}}>پروفیسر امل جلال مسیح خدمات سرانجام دے رہے ہیں۔</p>
       
       <h1 ><b>Our Services</b></h1>
-        <h1><b>These services are given by a professional and experienced priest. </b></h1>
+        <h1><b>یہ خدمات ایک پیشہ ور اور تجربہ کار پادری کے ذریعہ دی جاتی ہیں۔</b></h1>
         <div className="row mt-5 d-flex justify-content-center flex-wrap">
           <div className="col-md-4 col-12 mt-4">
             <div data-aos="zoom-in" data-aos-duration="1000" className="h-100 card border-0 rounded-0">

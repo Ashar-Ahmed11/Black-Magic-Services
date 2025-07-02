@@ -41,10 +41,10 @@ Professor Amil Jalal Masih has a lot of experience with astrology and spiritual 
                     style={{ objectFit: "cover" }}
                   />
                   <div
-                    className="position-absolute bottom-0 start-0 text-white p-4 rounded-bottom"
-                    style={{ width: "100%",backgroundColor: "#c301ff"  }}
+                    className="position-absolute bg-dark bottom-0 start-0 text-white p-4 rounded-bottom"
+                    style={{ width: "100%"  }}
                   >
-                    <p className="mb-0 text-center">HELP MARRIAGES</p>
+                    <p className="mb-0 text-center">Problems Solved</p>
                     <h2 className="display-4 text-center fw-bold"><CountUp end={14} duration={3} suffix="K+" />
                     </h2>
                   </div>
