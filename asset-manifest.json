@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Black-Magic-Services/static/css/main.cc5ed676.css",
-    "main.js": "/Black-Magic-Services/static/js/main.b4b360ea.js",
+    "main.js": "/Black-Magic-Services/static/js/main.afb9b227.js",
     "static/js/453.3c20f72e.chunk.js": "/Black-Magic-Services/static/js/453.3c20f72e.chunk.js",
     "static/media/coverImage.jpg": "/Black-Magic-Services/static/media/coverImage.4cdf269b1d25cba913d8.jpg",
     "static/media/centerImage.png": "/Black-Magic-Services/static/media/centerImage.92f1980c1ac1d2fbab4d.png",
@@ -19,11 +19,11 @@
     "static/media/asan qarz18.jpg": "/Black-Magic-Services/static/media/asan qarz18.c4997876dd45ec78141f.jpg",
     "static/media/asan qarz14.jpg": "/Black-Magic-Services/static/media/asan qarz14.9f8bf5e01a46cf054a43.jpg",
     "static/media/asan qarz11.jpg": "/Black-Magic-Services/static/media/asan qarz11.6ebe0f009b5a3eb315f9.jpg",
+    "static/media/weddingOne.jpg": "/Black-Magic-Services/static/media/weddingOne.badcd6ccef0d71674281.jpg",
     "static/media/newAboutus.jpg": "/Black-Magic-Services/static/media/newAboutus.20ba6c8ef2873e4f150f.jpg",
     "static/media/relationship.jpg": "/Black-Magic-Services/static/media/relationship.20ba6c8ef2873e4f150f.jpg",
     "static/media/img5.jpg": "/Black-Magic-Services/static/media/img5.16bcb8573feb5f89f0f4.jpg",
     "static/media/img4.jpg": "/Black-Magic-Services/static/media/img4.35541ff6b7ad849e67e9.jpg",
-    "static/media/weddingOne.jpg": "/Black-Magic-Services/static/media/weddingOne.3b1284d9394641259f27.jpg",
     "static/media/img1.jpg": "/Black-Magic-Services/static/media/img1.302f98488179ba7758a3.jpg",
     "static/media/recitation.jpg": "/Black-Magic-Services/static/media/recitation.effddd5ff80461a3e084.jpg",
     "static/media/img3.jpg": "/Black-Magic-Services/static/media/img3.3dc0fb706407b4744b70.jpg",
@@ -42,11 +42,11 @@
     "static/media/img8.jpg": "/Black-Magic-Services/static/media/img8.fbf3bf8e20705c3d6d21.jpg",
     "index.html": "/Black-Magic-Services/index.html",
     "main.cc5ed676.css.map": "/Black-Magic-Services/static/css/main.cc5ed676.css.map",
-    "main.b4b360ea.js.map": "/Black-Magic-Services/static/js/main.b4b360ea.js.map",
+    "main.afb9b227.js.map": "/Black-Magic-Services/static/js/main.afb9b227.js.map",
     "453.3c20f72e.chunk.js.map": "/Black-Magic-Services/static/js/453.3c20f72e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cc5ed676.css",
-    "static/js/main.b4b360ea.js"
+    "static/js/main.afb9b227.js"
   ]
 }
