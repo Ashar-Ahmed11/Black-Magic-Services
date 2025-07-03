@@ -8,6 +8,7 @@ const AkhuwatLoanScheme = () => {
         <div className="row align-items-center">
           <div className="col-lg-5 " >
             <h1 className="fw-bold mb-4">How to Handle Divorce with the Help of God</h1>
+            
 
             <p className="mb-4 fw-bold mt-1">
               There is a support system at Divorce Solution that is easy to use and made for anyone going through a hard split. It helps people find peace of mind by giving them clear, caring steps based on spiritual understanding. The process is easy, doesn't take much work, and is meant to ease mental pain. People all over Pakistan trust this service to help them rebuild their lives with mental and emotional power.
