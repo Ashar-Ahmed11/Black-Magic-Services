@@ -12,7 +12,7 @@ const AkhuwatAdvantage = () => {
               <div className="card-body text-center p-4">
                 <h2 className="card-title mb-3 fw-bold">One that you can trust</h2>
                 <p className="card-text">
-                Clear your thoughts and feel at peace with our reliable Online Istikhara services. Get help from God when making big choices in your life, like about marriage, relationships, work, or your family. Spiritual insight can help you move forward with hope, confidence, and the right path.
+                Clear your thoughts and feel at peace with our reliable Online Black Magic Services. Get help from God when making big choices in your life, like about marriage, relationships, work, or your family. Spiritual insight can help you move forward with hope, confidence, and the right path.
                 </p>
               </div>
             </div>
