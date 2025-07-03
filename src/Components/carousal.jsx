@@ -48,24 +48,14 @@ export default function Carousal() {
         <div className="carousel-inner">
           {coverImages.map((e, i) => (
             <div className={`carousel-item ${i === 0 ? 'active' : ''}`} key={i}>
-              <div
-                className="shade"
-                style={{
-                  zIndex: 20,
-                  position: 'absolute',
-                  width: '100%',
-                  height: '100%',
-                  backgroundColor: 'rgba(0,0,0,0.4)',
-                  pointerEvents: 'none',
-                }}
-              ></div>
+              
 
               <div
                 style={{
                   transform: 'translate3d(0,0,0)',
                   willChange: 'transform',
                   backgroundColor: '#000000',
-                  paddingBottom: isMobile ? '133.3%' : '52.941%',
+                  // paddingBottom: isMobile ? '133.3%' : '52.941%',
                 }}
                 className="d-block w-100 h-100 position-relative"
               >
@@ -74,10 +64,10 @@ export default function Carousal() {
                     top: 0,
                     objectFit: 'cover',
                     height: '100%',
-                    position: 'absolute',
+                   
                     width: '100%',
                   }}
-                  className="card-img-top position-absolute"
+                  className="card-img-top "
                   src={e.url}
                   alt=""
                 />
@@ -87,7 +77,7 @@ export default function Carousal() {
         </div>
 
         {/* Overlay Caption and Animation */}
-        <div
+        {/* <div
           className="carousel-caption h-100 d-flex align-items-center justify-content-start"
           style={{
             zIndex: 30,
@@ -109,7 +99,7 @@ export default function Carousal() {
                 sequence={[
                   'Solve Love Problems',
                   2000,
-                  'Online Istikhara',
+                  'Get your ex-lover back',
                   2000,
                   'Black Magic Services',
                   2000,
@@ -163,7 +153,7 @@ export default function Carousal() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

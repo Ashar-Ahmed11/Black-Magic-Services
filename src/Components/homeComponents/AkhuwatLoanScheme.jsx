@@ -1,5 +1,5 @@
 import React from 'react';
-import asaanQarz3 from '../../Images/img10.jpg'
+import asaanQarz3 from '../../Images/img4.jpg'
 
 const AkhuwatLoanScheme = () => {
   return (

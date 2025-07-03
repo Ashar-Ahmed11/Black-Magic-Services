@@ -1,5 +1,5 @@
 import React from "react";
-import asaanQarz22 from '../../Images/img9.jpg';
+import asaanQarz22 from '../../Images/weddingOne.jpg';
 
 const AkhuwatLoanStatus = ({ triggerWhatsApp }) => {
   const handleSubmit = (e) => {

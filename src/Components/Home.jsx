@@ -32,7 +32,7 @@ const Home = ({ triggerWhatsApp }) => {
       <AkhuwatLoanInstruction />
       <AkhuwatLoanScheme />
       <AkhuwatAdvantage />
-      <AkhuwatImages1 />
+      {/* <AkhuwatImages1 /> */}
     </div>
   )
 }
